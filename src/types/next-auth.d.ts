@@ -1,5 +1,4 @@
 import 'next-auth'
-import { INTERNALS } from 'next/dist/server/web/spec-extension/request';
 
 declare module 'next-auth' {
     interface User {
